@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       
       <Switch>
-        <Route exact path="/index.html" component={Home} />
+        <Route exact path="/React-17-SystemJS-/index.html" component={Home} />
       </Switch>
       
       <Footer />
