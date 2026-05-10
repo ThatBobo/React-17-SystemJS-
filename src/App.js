@@ -6,7 +6,6 @@ import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 
 import Home from './pages/Home.js';
-import Login from './pages/Login.js'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       
       <Switch>
         <Route exact path="/index.html" component={Home} />
-        <Route exact path="/index.html/login" component={Login} />
       </Switch>
       
       <Footer />
